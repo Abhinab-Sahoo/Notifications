@@ -22,10 +22,6 @@ class MainActivity : AppCompatActivity() {
     private val NOTIFICATION_ID = 101
     private val CHANNEL_ID = "notification_channel_id"
 
-    companion object {
-        const val ACTION_BUTTON_1 = "com.example.notifications.ACTION_BUTTON_1"
-        const val ACTION_BUTTON_2 = "com.example.notifications.ACTION_BUTTON_2"
-    }
 
     private val requestPermissionLauncher = registerForActivityResult(
         ActivityResultContracts.RequestPermission()
